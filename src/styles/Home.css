@@ -1,0 +1,74 @@
+body {
+    background-color: rgb(255, 255, 255);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.home-container {
+    padding: 70px;
+    background-color: #024011;
+    border: 5px solid #dcf806;
+    border-radius: 15px;
+    max-width: 800px;
+    margin: 20px auto;
+    
+}
+
+.home-header {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: center;
+    color: #fff;
+}
+
+.home-content {
+    text-align: center;
+    margin-top: 20px;
+    color: #fff;
+}
+
+.home-content p {
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+.action-buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.home-button {
+    padding: 10px 20px;
+    margin: 0 10px;
+    font-size: 16px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #a8f904;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.home-button:hover {
+    background-color: #045411;
+}
+
+.add-reminder-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.input-field {
+    margin-bottom: 15px;
+}
+
+button {
+    margin-top: 15px;
+    width: 100%;
+}

@@ -1,0 +1,46 @@
+
+.add-medication-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    background-color: #f5f5f5; 
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    margin: auto;
+    margin-top: 2rem;
+}
+
+
+.add-medication-container h2 {
+    color: #333; 
+    margin-bottom: 1.5rem;
+}
+
+
+.add-medication-form {
+    width: 100%;
+}
+
+
+.add-medication-form .MuiTextField-root {
+    margin-bottom: 1rem;
+}
+
+
+.add-medication-button {
+    margin-top: 1rem;
+    text-transform: none; 
+}
+
+
+@media (max-width: 600px) {
+    .add-medication-container {
+        padding: 1rem;
+    }
+
+    .add-medication-button {
+        font-size: 0.9rem;
+    }
+}

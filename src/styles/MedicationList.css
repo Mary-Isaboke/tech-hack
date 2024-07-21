@@ -1,0 +1,29 @@
+/* styles/MedicationList.css */
+.medication-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.medication-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.medication-name {
+    font-weight: bold;
+}
+
+.medication-dose, .medication-time {
+    color: #555;
+}
+
+.medication-item:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.medication-item:hover {
+    background-color: #eaeaea;
+}
