@@ -9,7 +9,9 @@ import Signup from './components/Signup';
 import MedicationList from './components/MedicationList';
 import AddMedication from './components/AddMedication';
 import AddReminder from './components/AddReminder';
-import "./styles/Container.css";
+import './styles/Home.css';
+
+
 
 
 const App = () => {

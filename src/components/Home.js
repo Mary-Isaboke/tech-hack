@@ -16,10 +16,11 @@ const Home = () => {
                     <Link to="/signup" className="home-button">Signup</Link>
                     <Link to="/medications" className="home-button">Medications List</Link>
                     <Link to="/add-medication" className="home-button">Add Medication</Link>
-                    <Link to="/add-reminder" className="home-button">Add Reminder</Link>  
+                    <Link to="/add-reminder" className="home-button">Add Reminder</Link> 
                 </div>
             </div>
         </div>
+        
     );
 }
 
