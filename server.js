@@ -10,7 +10,7 @@ app.use(bodyParser.json());
 const db = mysql.createConnection({
     host: 'localhost',
     user: 'root',
-    password: 'Mary468issa',
+    password: '',
     database: 'Medication_Reminder_app'
 });
 
